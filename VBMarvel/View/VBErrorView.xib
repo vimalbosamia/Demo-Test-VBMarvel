@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kWb-94-xc0" customClass="VBErrorView" customModule="VBMarvel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="512"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Bj6-RW-Dmj">
+                    <rect key="frame" x="0.0" y="241" width="414" height="74"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Ups, something went wrong" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2f-Qg-0i8">
+                            <rect key="frame" x="112.5" y="0.0" width="189.5" height="18"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jG-by-z3h">
+                            <rect key="frame" x="107" y="34" width="200" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="lbq-WG-fqf"/>
+                                <constraint firstAttribute="width" constant="200" id="mVk-PQ-u61"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Try again">
+                                <backgroundConfiguration key="background" cornerRadius="8">
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </backgroundConfiguration>
+                                <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="tryAgain:" destination="kWb-94-xc0" eventType="touchUpInside" id="EqK-Pk-f1P"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="L2f-Qg-0i8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Bj6-RW-Dmj" secondAttribute="leading" constant="16" id="Vei-1D-fxI"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="D7m-UA-hJb"/>
+            <constraints>
+                <constraint firstItem="Bj6-RW-Dmj" firstAttribute="centerX" secondItem="D7m-UA-hJb" secondAttribute="centerX" id="YWL-ca-sll"/>
+                <constraint firstItem="Bj6-RW-Dmj" firstAttribute="centerY" secondItem="D7m-UA-hJb" secondAttribute="centerY" id="Yia-Nv-VXb"/>
+                <constraint firstItem="Bj6-RW-Dmj" firstAttribute="leading" secondItem="kWb-94-xc0" secondAttribute="leading" id="ZNV-Pm-1Ce"/>
+                <constraint firstItem="Bj6-RW-Dmj" firstAttribute="top" relation="greaterThanOrEqual" secondItem="kWb-94-xc0" secondAttribute="top" constant="16" id="kpR-4p-Wfd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="infoLabel" destination="L2f-Qg-0i8" id="I3g-Q8-Asu"/>
+                <outlet property="stackView" destination="Bj6-RW-Dmj" id="90S-ja-3gU"/>
+                <outlet property="tryAgainButton" destination="4jG-by-z3h" id="Jy7-H9-zCv"/>
+            </connections>
+            <point key="canvasLocation" x="265" y="-111"/>
+        </view>
+    </objects>
+</document>
