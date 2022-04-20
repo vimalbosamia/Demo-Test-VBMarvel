@@ -13,7 +13,7 @@
 		9416DAA7280ED95400DA2227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9416DAA5280ED95400DA2227 /* Main.storyboard */; };
 		9416DAA9280ED95700DA2227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9416DAA8280ED95700DA2227 /* Assets.xcassets */; };
 		9416DAAC280ED95700DA2227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9416DAAA280ED95700DA2227 /* LaunchScreen.storyboard */; };
-		9416DAB7280ED95700DA2227 /* VBMarvelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416DAB6280ED95700DA2227 /* VBMarvelTests.swift */; };
+		9416DAB7280ED95700DA2227 /* VBCharacterListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416DAB6280ED95700DA2227 /* VBCharacterListTest.swift */; };
 		9416DAC1280ED95700DA2227 /* VBMarvelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416DAC0280ED95700DA2227 /* VBMarvelUITests.swift */; };
 		9416DAC3280ED95700DA2227 /* VBMarvelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416DAC2280ED95700DA2227 /* VBMarvelUITestsLaunchTests.swift */; };
 		9416DAD3280EDD9700DA2227 /* VBDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416DAD2280EDD9700DA2227 /* VBDetailViewController.swift */; };
@@ -45,6 +45,9 @@
 		9416DB1A280F1D1800DA2227 /* VBComicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416DB17280F1D1800DA2227 /* VBComicModel.swift */; };
 		9416DB1C280F1DF600DA2227 /* VBComicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416DB1B280F1DF600DA2227 /* VBComicViewModel.swift */; };
 		9416DB20280F282900DA2227 /* VBComicResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416DB1F280F282900DA2227 /* VBComicResult.swift */; };
+		944573952810A515007BB83C /* VBCharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944573942810A515007BB83C /* VBCharactersModel.swift */; };
+		944573982810A863007BB83C /* VBComicListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944573962810A863007BB83C /* VBComicListTest.swift */; };
+		944573992810A863007BB83C /* VBComicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944573972810A863007BB83C /* VBComicModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +77,7 @@
 		9416DAAB280ED95700DA2227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9416DAAD280ED95700DA2227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9416DAB2280ED95700DA2227 /* VBMarvelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBMarvelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9416DAB6280ED95700DA2227 /* VBMarvelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBMarvelTests.swift; sourceTree = "<group>"; };
+		9416DAB6280ED95700DA2227 /* VBCharacterListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBCharacterListTest.swift; sourceTree = "<group>"; };
 		9416DABC280ED95700DA2227 /* VBMarvelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBMarvelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9416DAC0280ED95700DA2227 /* VBMarvelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBMarvelUITests.swift; sourceTree = "<group>"; };
 		9416DAC2280ED95700DA2227 /* VBMarvelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBMarvelUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -107,6 +110,9 @@
 		9416DB17280F1D1800DA2227 /* VBComicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBComicModel.swift; sourceTree = "<group>"; };
 		9416DB1B280F1DF600DA2227 /* VBComicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBComicViewModel.swift; sourceTree = "<group>"; };
 		9416DB1F280F282900DA2227 /* VBComicResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBComicResult.swift; sourceTree = "<group>"; };
+		944573942810A515007BB83C /* VBCharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBCharactersModel.swift; sourceTree = "<group>"; };
+		944573962810A863007BB83C /* VBComicListTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBComicListTest.swift; sourceTree = "<group>"; };
+		944573972810A863007BB83C /* VBComicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBComicModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,7 +180,10 @@
 		9416DAB5280ED95700DA2227 /* VBMarvelTests */ = {
 			isa = PBXGroup;
 			children = (
-				9416DAB6280ED95700DA2227 /* VBMarvelTests.swift */,
+				944573962810A863007BB83C /* VBComicListTest.swift */,
+				944573972810A863007BB83C /* VBComicModel.swift */,
+				9416DAB6280ED95700DA2227 /* VBCharacterListTest.swift */,
+				944573942810A515007BB83C /* VBCharactersModel.swift */,
 			);
 			path = VBMarvelTests;
 			sourceTree = "<group>";
@@ -504,7 +513,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9416DAB7280ED95700DA2227 /* VBMarvelTests.swift in Sources */,
+				9416DAB7280ED95700DA2227 /* VBCharacterListTest.swift in Sources */,
+				944573992810A863007BB83C /* VBComicModel.swift in Sources */,
+				944573952810A515007BB83C /* VBCharactersModel.swift in Sources */,
+				944573982810A863007BB83C /* VBComicListTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -768,6 +780,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64Q868669A;
@@ -786,6 +799,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64Q868669A;

@@ -33,7 +33,7 @@ struct VBComicParams: VBAPICallParams {
                 params.updateValue(name, forKey: "titleStartsWith")
             }
         } else {
-            if dateDescriptor != nil || dateDescriptor != ""{
+            if  dateDescriptor != ""{
                 params.updateValue(dateDescriptor, forKey: "dateDescriptor")
             }
         }
